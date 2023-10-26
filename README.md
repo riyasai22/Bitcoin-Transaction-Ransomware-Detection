@@ -10,7 +10,8 @@ The comprehensive data analysis and machine learning pipeline, includes explorat
 
 EDA is conducted using correlation heatmaps to visualize the relationships between variables.
 Distribution plots (e.g., histograms) and box plots are used to understand the distribution of data and identify potential outliers.
-Outlier Detection:
+
+## Outlier Detection:
 
 ### IQR (Interquartile Range):
 
@@ -26,11 +27,11 @@ It assigns anomaly scores to data points, and those with higher scores are consi
 DBSCAN is employed for clustering data points based on their density.
 Outliers are points that do not belong to any cluster and are identified accordingly.
 
-
 ## Unbalanced Data Handling:
 
 SMOTE (Synthetic Minority Over-sampling Technique) is used to balance the dataset by oversampling the minority class, which can improve classification performance.
-Standardization Techniques:
+
+## Standardization Techniques:
 
 Different data scaling techniques are attempted, including StandardScaler, MinMaxScaler, and RobustScaler, to standardize the features and prepare them for machine learning.
 
